@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --primary_color: #34D399;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link{
+    background-color: var(--primary_color);
+    border-radius: 0.5rem;
+    color: chartreuse;
+}
+
+.secondary-link{
+    color: chartreuse;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary_color);
+}

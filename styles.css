@@ -19,6 +19,7 @@ body{
 }
 
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -49,6 +50,8 @@ body{
     color: chartreuse;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 
 }
 
@@ -97,6 +100,10 @@ body{
     text-align: center;
 }
 
+.link-align{
+    text-align: center;
+}
+
 .ow{
     background-color: var(--off-white);
 }
@@ -106,6 +113,8 @@ body{
     color: chartreuse;
     padding: 1rem;
     border-top-right-radius: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .footer .footer-header{

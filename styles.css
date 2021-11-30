@@ -2,6 +2,7 @@
 
 :root {
     --primary_color: #34D399;
+    --off-white: ivory;
 }
 
 body{
@@ -51,6 +52,10 @@ body{
 
 }
 
+.navigation .navigation-pos{
+    text-align: right;
+}
+
 .navigation .nav-brand{
     font-weight: bold;
     font-size: large;
@@ -79,4 +84,42 @@ body{
     padding-top: 1rem;
     color: var(--primary_color);
     text-align: center;
+}
+
+.hero .hero-heading .hero-inverted{
+    color: crimson;
+}
+
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary_color);
+    color: chartreuse;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 2rem 0rem 2rem;
+}
+
+.footer .align{
+    text-align: center;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.footer .link{
+    color: white;
 }

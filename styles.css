@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root {
-    --primary_color: #1F2937;
-    --secondary_color: #E5E7EB;
-    --tertiary_color: #DC2626;
+    --color1: #FFFFFF;
+    --color2: #E2F0F9;
+    --color3: #FC4A1A;
+    --color4: #F7B733;
 }
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    background-color: var(--color1);
  }
 
 .container{
@@ -28,15 +30,15 @@ body{
 }
 
 .primary-link{
-    background-color: var(--primary_color);
+    background-color: var(--color4);
     border-radius: 1rem;
-    color: var(--tertiary_color);
+    color: var(--color2);
 }
 
 .secondary-link{
-    color: var(--tertiary_color);
+    color: var(--color4);
     border-radius: 1rem;
-    border: 1px solid var(--tertiary_color);
+    border: 1px solid var(--color4);
 }
 
 .list-nobullet{
@@ -49,8 +51,8 @@ body{
 }
 
 .navigation{
-    background-color: var(--primary_color);
-    color: var(--tertiary_color);
+    background-color: var(--color4);
+    color: var(--color3);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     margin-left: 5rem;
@@ -69,7 +71,7 @@ body{
 }
 
 .navigation .link{
-    color: var(--tertiary_color);
+    color: var(--color1);
 }
 
 .navigation .link-active{
@@ -88,12 +90,12 @@ body{
 
 .hero .hero-heading{
     padding-top: 1rem;
-    color: var(--primary_color);
+    color: var(--color2);
     text-align: center;
 }
 
 .hero .hero-heading .hero-inverted{
-    color: var(--tertiary_color);
+    color: var(--color3);
 }
 
 .section{
@@ -119,12 +121,12 @@ body{
 }
 
 .ow{
-    background-color: var(--secondary_color);
+    background-color: var(--color2);
 }
 
 .footer{
-    background-color: var(--primary_color);
-    color: var(--tertiary_color);
+    background-color: var(--color4);
+    color: var(--color2);
     padding: 1rem;
     border-top-right-radius: 1rem;
     margin-left: 5rem;

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root {
-    --primary_color: #34D399;
-    --off-white: ivory;
+    --primary_color: #1F2937;
+    --secondary_color: #E5E7EB;
+    --tertiary_color: #DC2626;
 }
 
 body{
@@ -19,11 +20,6 @@ body{
     text-align: center;
 }
 
-.blog-con{
-    text-align: center;
-    max-width: 800px;
-    margin: auto;
-}
 
 .link{
     box-sizing: border-box;
@@ -33,14 +29,14 @@ body{
 
 .primary-link{
     background-color: var(--primary_color);
-    border-radius: 0.5rem;
-    color: chartreuse;
+    border-radius: 1rem;
+    color: var(--tertiary_color);
 }
 
 .secondary-link{
-    color: chartreuse;
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary_color);
+    color: var(--tertiary_color);
+    border-radius: 1rem;
+    border: 1px solid var(--tertiary_color);
 }
 
 .list-nobullet{
@@ -54,7 +50,7 @@ body{
 
 .navigation{
     background-color: var(--primary_color);
-    color: chartreuse;
+    color: var(--tertiary_color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     margin-left: 5rem;
@@ -73,7 +69,7 @@ body{
 }
 
 .navigation .link{
-    color: white;
+    color: var(--tertiary_color);
 }
 
 .navigation .link-active{
@@ -97,11 +93,16 @@ body{
 }
 
 .hero .hero-heading .hero-inverted{
-    color: crimson;
+    color: var(--tertiary_color);
 }
 
 .section{
     padding: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .section h1{
@@ -118,12 +119,12 @@ body{
 }
 
 .ow{
-    background-color: var(--off-white);
+    background-color: var(--secondary_color);
 }
 
 .footer{
     background-color: var(--primary_color);
-    color: chartreuse;
+    color: var(--tertiary_color);
     padding: 1rem;
     border-top-right-radius: 1rem;
     margin-left: 5rem;
@@ -143,6 +144,6 @@ body{
 }
 
 .footer .link{
-    color: white;
+    color: var(--tertiary_color);
 }
 
